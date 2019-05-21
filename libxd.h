@@ -20,7 +20,9 @@ try{
     cout<<">>Error: "<<mensaje;
     system("pause>nul");
     exit(0);
-}catch(...){}
+}catch(...){
+    cout<<"Error: Excepci"<<char(162)<<"n Inesperada.";
+}
 
 string matricula;
 string nombre;
